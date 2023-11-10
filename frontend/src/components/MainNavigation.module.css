@@ -1,0 +1,38 @@
+.header {
+  margin: auto;
+  padding: 2vh 8vw;
+  background-color: #3a4d39;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list a {
+  color: #ece3ce;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 700;
+}
+
+input {
+  height: 20px;
+  width: 150px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 15px;
+}
+
+.list a:hover,
+.list a.active {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

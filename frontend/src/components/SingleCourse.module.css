@@ -1,0 +1,41 @@
+.allItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+img {
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #3a4d39;
+  color: #ece3ce;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn.active {
+  background-color: #ece3ce;
+  color: #3a4d39;
+}
+
+.btn2nd {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #3a4d39;
+  color: #ece3ce;
+}
+
+.btn2nd:hover,
+.btn2nd.active {
+  background-color: #ece3ce;
+  color: #3a4d39;
+}
